@@ -169,7 +169,7 @@ article th, article td {
 
 article th {
    font-weight: bold;
-   background: #EFE0B9;
+   background: #FF8C00;
 }
 
 /* form */
@@ -180,7 +180,7 @@ form {
 
 form fieldset{
    border: none; 
-   background: #EFE0B9;
+   background: #FF8C00;
    position: relative;
 }
 
@@ -244,7 +244,7 @@ aside #estimate {
 
 /* footer */
 footer {
-   background: white;
+   background: orange;
    width: 100%;
    clear: both;
    font-size: 14px;
