@@ -33,7 +33,7 @@ time, mark, audio, video {
    font: inherit;
    vertical-align: baseline;
 }
-
+/* Changing colours is hard, luckily I can put just the name of the colour in instead of the binary code for it...*/
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -75,12 +75,12 @@ a:link, a:visited {
 
 a:hover {
    text-decoration: underline;
-   color: inherit;
+   color: black;
 }
 
 a:active {
    text-decoration: none;
-   color: inherit;
+   color: black;
 }
 
 /* container */
@@ -120,10 +120,10 @@ nav ul li {
    -webkit-border-top-right-radius: 7px;
    border-top-left-radius: 7px;
    border-top-right-radius: 7px;
-   -webkit-box-shadow: 2px -2px 0px #94CEF2,
-                       2px 0px 0px #94CEF2;
-   -moz-box-shadow:    2px -2px 0px #94CEF2,
-                       2px 0px 0px #94CEF2;
+   -webkit-box-shadow: 2px -2px 0px orange,
+                       2px 0px 0px orange;
+   -moz-box-shadow:    2px -2px 0px orange,
+                       2px 0px 0px orange;
    box-shadow:         2px -2px 0px black,
                        2px 0px 0px black;
 }
@@ -139,7 +139,7 @@ article {
    float: right;
    font-family: "Arvo", cursive;
    text-align: left;
-   background: white;
+   background: gray;
    padding: 10px;
    border-top: 1px solid gray;
 }
@@ -180,7 +180,7 @@ form {
 
 form fieldset{
    border: none; 
-   background: white;
+   background: orange;
    position: relative;
 }
 
@@ -253,4 +253,5 @@ footer {
 
 footer p {
    text-align: center;
+  
 }
