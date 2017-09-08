@@ -85,7 +85,7 @@ a:active {
 
 /* container */
 #container {
-   background: #0F4364;
+   background: black;
 }
 
 /* page header */
@@ -98,9 +98,9 @@ header {
 /* navigation */
 nav {
    font-size: 16px;
-   font-family: "Indie+Flower", cursive;
+   font-family: "Arvo", cursive;
    padding-top: 142px;
-   background: white;
+   background: black;
    float: right;
    width: 740px;
 }
@@ -124,13 +124,13 @@ nav ul li {
                        2px 0px 0px #94CEF2;
    -moz-box-shadow:    2px -2px 0px #94CEF2,
                        2px 0px 0px #94CEF2;
-   box-shadow:         2px -2px 0px #94CEF2,
-                       2px 0px 0px #94CEF2;
+   box-shadow:         2px -2px 0px black,
+                       2px 0px 0px black;
 }
 
 nav ul #currentpage {
-   background: #94CEF2;
-   color: white;
+   background: orange;
+   color: orange;
 }
 
 /* main content */
@@ -169,7 +169,7 @@ article th, article td {
 
 article th {
    font-weight: bold;
-   background: #FF8C00;
+   background: black;
 }
 
 /* form */
@@ -180,7 +180,7 @@ form {
 
 form fieldset{
    border: none; 
-   background: #FF8C00;
+   background: white;
    position: relative;
 }
 
@@ -233,7 +233,7 @@ form input[type="checkbox"] {
 /* sidebar */
 aside {
    float: left;
-   color: #EFE0B9;
+   color: black;
    top: 190px;
    padding: 30px;
 }
