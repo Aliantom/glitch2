@@ -137,7 +137,7 @@ nav ul #currentpage {
 article {
    width: 640px;
    float: right;
-   font-family: "Indie+Flower", cursive;
+   font-family: "Arvo", cursive;
    text-align: left;
    background: white;
    padding: 10px;
@@ -145,7 +145,7 @@ article {
 }
 
 article h2 {
-   font-family: "Indie+Flower", cursive;
+   font-family: "Arvo", cursive;
    font-size: 1.2em;
    font-weight: bold;
    text-align: center;
