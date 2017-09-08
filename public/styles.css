@@ -140,7 +140,7 @@ article {
    font-family: "Arvo", cursive;
    text-align: left;
    background: gray;
-   padding: 10px;
+   padding: px;
    border-top: 1px solid gray;
 }
 
@@ -248,7 +248,7 @@ footer {
    width: 100%;
    clear: both;
    font-size: 14px;
-   padding: 10px;
+   padding: 25px;
 }
 
 footer p {
