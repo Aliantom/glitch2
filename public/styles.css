@@ -213,10 +213,10 @@ form label p:nth-child(2) {
 
 form input {
    padding: 1%;
-   background: orange;
+   background: black;
    color: orange;
    border: none;
-   font: normal 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   font: normal 1em/1.5em "Calibri", Arial, Helvetica, Geneva, sans-serif;
    float: right;
    clear: both;
    width: 60px;
