@@ -16,7 +16,7 @@ function calcTotal(){
         (item5.checked) ? (itemTotal += 85) : (itemTotal+= 0);
         (item6.checked) ? (itemTotal += 135) : (itemTotal+= 0);
         // now calcualte the sales total after computing tax
-        var salesTaxRate = 0.07;
+        var salesTaxRate = 0.06;
         var orderTotal = itemTotal + (itemTotal * salesTaxRate);
         alert("Your order total is $" + orderTotal.toFixed(2));  //toFixed(2) writes out 2 decimal places
 }
